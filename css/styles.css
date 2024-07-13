@@ -1,0 +1,49 @@
+.progress-button {
+    background: blue;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.complete-button {
+    background: green;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.destructive-action {
+    background: red;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.hurrah-animation {
+    animation: fadeinout 2s ease-in-out;
+}
+.headerbar {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+.task-progress-bar {
+    min-width: 200px;
+    padding-top: 13px;
+}
+.animated-button:hover, 
+.progress-button:hover, 
+.complete-button:hover, 
+.destructive-action:hover,
+.normal-button:hover {
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); 
+}
+@keyframes fadeinout {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+.title-label {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
